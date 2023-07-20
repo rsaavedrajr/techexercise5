@@ -33,7 +33,7 @@ class CalculatorTests {
 			"49, 51, 100",
 			"1, 100, 101",
 			// this test breaks the code!!!
-			"1, 100, 50"
+			// "1, 100, 50"
 	})
 	void add(int first, int second, int expectedResult) {
 		Calculator calculator = new Calculator();
